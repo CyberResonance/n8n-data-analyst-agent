@@ -33,15 +33,6 @@ curl -X POST https://<your-n8n>/webhook/analyze-data \
 
 No API key is stored in the workflow file.
 
-## Development
-
-The workflow JSON is generated. Edit [`profile_data.js`](profile_data.js) or [`generate_workflow.py`](generate_workflow.py), then:
-
-```bash
-python generate_workflow.py
-python test_workflow.py     # 6 tests; the profiler tests need Node.js
-```
-
 ## Limitations
 
 - The model sees the column profile and up to 10 sample rows, not the whole file, so questions about specific rows may be answered incompletely.
