@@ -41,7 +41,7 @@ No API key is stored in the workflow file.
 
 ## Status
 
-Verified on 2026-10-27 on a self-hosted n8n: profiling, prompt building, answer formatting and webhook response, with the Gemini response mocked; all 6 Python tests passing.
+Verified on 2026-10-27 on a self-hosted n8n: profiling, prompt building, answer formatting and webhook response, with the Gemini response mocked.
 
 ## License
 
